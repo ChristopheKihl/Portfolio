@@ -20,7 +20,7 @@
 }
 
 .active{
-  border-bottom: #405EB2 3px solid !important;
+  border-bottom: #405EB2 3px solid;
   font-weight: bold;
   color:white;
 }
