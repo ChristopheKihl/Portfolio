@@ -6,9 +6,9 @@
   color:#EEEEF0;
 }
 
-.bg-secondary{
+/* .bg-secondary{
   background-color: #172448 !important;
-}
+} */
 
 .nav-item:hover{
   background-color: #222325;
@@ -22,4 +22,5 @@
 .active{
   border-bottom: #405EB2 3px solid !important;
   font-weight: bold;
+  color:white;
 }
