@@ -1,12 +1,25 @@
+.bg-body{
+  background-color: #0C111C !important;
+}
+
+.text-white{
+  color:#EEEEF0;
+}
+
+.bg-secondary{
+  background-color: #172448 !important;
+}
+
 .nav-item:hover{
-  background-color: black;
-  border-radius: 25px;
+  background-color: #222325;
+  border-radius: 10px;
 }
 
 .nav-item:hover a{
   color:white;
 }
 
-.nav-item:hover .nav-link.active{
-  color:red;
+.active{
+  border-bottom: #405EB2 3px solid !important;
+  font-weight: bold;
 }
