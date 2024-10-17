@@ -1,11 +1,12 @@
 .nav-item:hover{
   background-color: black;
+  border-radius: 25px;
 }
 
-.nav-item a:hover{
+.nav-item:hover a{
   color:white;
 }
 
-a.nav-link.active:hover{
+.nav-item:hover .nav-link.active{
   color:red;
 }
