@@ -3,12 +3,12 @@
     0%,
     10%,
     100% {
-        transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10%, 0);
     }
 
     12%,
     22% {
-        transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -115%, 0);
     }
 
     24%,
