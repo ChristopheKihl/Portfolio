@@ -32,7 +32,12 @@
 
 ul#competences {
   overflow: hidden;
-  height: 50px;
+  height: 30px;
+  color: aqua;
+}
+
+#competences li {
+  animation: slide-up 10s infinite backwards;
 }
 
 li {
