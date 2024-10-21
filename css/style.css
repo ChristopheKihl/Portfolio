@@ -2,6 +2,11 @@
   background-color: #0C111C !important;
 }
 
+.vr{
+  color:red;
+  width: 3px;
+}
+
 .text-white{
   color:#EEEEF0;
 }
@@ -22,5 +27,14 @@
 .active{
   border-bottom: #405EB2 3px solid !important;
   font-weight: bold;
-  color:white;
+  color:white !important;
+}
+
+ul#competences{
+  overflow: hidden;
+  height: 50px;
+}
+
+li{
+  list-style: none;
 }
