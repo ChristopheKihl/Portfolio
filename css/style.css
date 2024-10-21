@@ -1,40 +1,47 @@
-.bg-body{
+.bg-body {
   background-color: #0C111C !important;
 }
 
-.vr{
-  color:red;
+.vr {
+  color: red;
   width: 3px;
 }
 
-.text-white{
-  color:#EEEEF0;
+.text-white {
+  color: #EEEEF0;
 }
 
 /* .bg-secondary{
   background-color: #172448 !important;
 } */
 
-.nav-item:hover{
+.nav-item:hover {
   background-color: #222325;
   border-radius: 10px;
 }
 
-.nav-item:hover a{
-  color:white;
+.nav-item:hover a {
+  color: white;
 }
 
-.active{
+.active {
   border-bottom: #405EB2 3px solid !important;
   font-weight: bold;
-  color:white !important;
+  color: white !important;
 }
 
-ul#competences{
+ul#competences {
   overflow: hidden;
   height: 50px;
 }
 
-li{
+li {
   list-style: none;
+}
+
+@media screen and (max-width: 990px) {
+
+  .vr {
+    display: none;
+  }
 }
