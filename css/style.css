@@ -1,0 +1,65 @@
+.bg-body {
+  background-color: #0C111C !important;
+  height: 1200px;
+}
+
+nav {
+  width: 50px;
+}
+
+
+#navLink {
+  margin-top: 3vh;
+  height: 100vh;
+  border-right: 1px #46484F solid;
+  margin-left: 15px;
+}
+
+#navLink a {
+  font-size: 2.5vh;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  margin-bottom: 3vh;
+  text-align: center;
+  padding: 5px;
+}
+
+#navLink a:hover {
+  background-color: #222325;
+  border-radius: 10px;
+}
+
+.active {
+  border-left: #405EB2 3px solid !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white !important;
+}
+
+#bracket {
+  color: aqua;
+  font-weight: 600;
+}
+
+ul#competences {
+  overflow: hidden;
+  height: 30px;
+  color: aqua;
+}
+
+#competences li {
+  animation: slide-up 13s infinite backwards;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 990px) {
+
+  .vr {
+    display: none;
+  }
+}

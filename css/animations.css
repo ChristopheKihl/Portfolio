@@ -1,0 +1,49 @@
+@keyframes slide-up {
+
+    0%,
+    10%,
+    100% {
+        transform: translate3d(0, -10%, 0); /* Full-stack*/
+    }
+
+    12%,
+    22% {
+        transform: translate3d(0, -115%, 0);/* Web*/
+    }
+
+    24%,
+    34% {
+        transform: translate3d(0, -210%, 0);/*Web mobile*/
+    }
+
+    36%,
+    46% {
+        transform: translate3d(0, -315%, 0);/*Front-end*/
+    }
+
+    48%,
+    58% {
+        transform: translate3d(0, -415%, 0);
+    }
+
+    60%,
+    70% {
+        transform: translate3d(0, -315%, 0);
+    }
+
+    72%,
+    82% {
+        transform: translate3d(0, -210%, 0);
+    }
+
+    84%,
+    94% {
+        transform: translate3d(0, -115%, 0);
+    }
+
+    96%,
+    100%{
+        transform: translate3d(0, -10%, 0);
+    }
+
+}
