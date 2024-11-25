@@ -5,11 +5,14 @@ html {
 
 .bg-body {
   background-color: #0C111C !important;
-  height: 1200px;
+  height: auto;
+  color: white;
 }
 
 nav {
+  top: 50px;
   width: 50px;
+  height: 90%;
 }
 
 #navLink {
@@ -21,11 +24,17 @@ nav {
 }
 
 #navLink a {
+  font-weight: 700;
   text-decoration: none;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   margin-bottom: 2vh;
-  padding: 5px;
+  padding: 8px 5px 8px 5px;
+}
+
+#navLink a:hover {
+  transform: rotate(270deg);
+  margin-left: 50px;
 }
 
 #navLink a:hover:not(.active) {
@@ -40,7 +49,45 @@ nav {
   color: white !important;
 }
 
-#bracket {
+#photo img {
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  width: 200px;
+}
+
+#texte {
+  position: fixed;
+  font-size: 35px;
+  top: 400px;
+  left: 25%;
+}
+
+ul {
+  overflow: hidden;
+  height: 50px;
+  color: aqua;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  animation: slide-up 13s infinite backwards;
+}
+
+#presentation {
+  margin-top: 1000px;
+}
+
+@media screen and (min-width:1000px) {
+  #texte {
+    position: static;
+    margin-top: 50px;
+  }
+
+}
+
+/* #bracket {
   color: aqua;
   font-weight: 600;
 }
@@ -52,16 +99,4 @@ ul#competences {
 }
 
 #competences li {
-  animation: slide-up 13s infinite backwards;
-}
-
-li {
-  list-style: none;
-}
-
-@media screen and (max-width: 990px) {
-
-  .vr {
-    display: none;
-  }
 }
